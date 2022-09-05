@@ -86,7 +86,11 @@ a i {
 }
 @media (max-width:800px) {
     .card{
+        width: 80%;
+        flex-direction: column;
+        }
+      .card img{
         width: 100%;
-Flex derction: column;
+        height: 50%;
     }
 }
